@@ -8,7 +8,9 @@ $(document).ready(function(){
 
 		$('.navbar-brand').addClass('d-flex align-items-center');
 		$('nav').toggleClass('trocar-cor');
-		$('nav').removeClass('bg-danger');
+		if ($('nav').hasClass('trocar-cor')) {
+			
+		}
 	});
 
 });
