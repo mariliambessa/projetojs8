@@ -1,4 +1,4 @@
-var dados = {
+const dados = {
   "login": "mariliambessa",
   "id": 51347038,
   "node_id": "MDQ6VXNlcjUxMzQ3MDM4",
