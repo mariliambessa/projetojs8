@@ -9,12 +9,9 @@ $(document).ready(function(){
 			<img src="${dados.avatar_url}" class="avatar d-inline-block align-top">
 			${dados.name}
 		`);
-
 		navbar.addClass('d-flex align-items-center');
-		nav.toggleClass('trocar-cor');
-		if (nav.hasClass('trocar-cor')) {
-
-		}
+		corNav.toggleClass('trocar-cor');
+		
 	});
 
 });
